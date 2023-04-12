@@ -2,7 +2,7 @@
 
 ### What is DevOps?
 
-DevOps is a set of: 
+DevOps is a set of : 
 - practices
 - tools
 - cultural philosophy
