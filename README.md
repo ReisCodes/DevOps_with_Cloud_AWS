@@ -81,8 +81,32 @@ All this encapsulates why a business would benefit from both incorporating DevOp
 being automated, inciting collaboration across the business and building in small increments will allow a business to 
 produce higher quality applications with fewer problems in the process at the best price possible.
 
+## Moving important credentials to .ssh file
 
+Once we have our credential files we need to move them to our `.ssh` folder we
+can do this by:
+- copying the file with Press <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd>
 
+Navigate to our `.ssh` folder:
+- Press <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>G</kbd> and then typing `~/.ssh`
 
+And finally pasting the file with:
+-Press <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>
 
+##### Creating a new file to save our `.pem` file
+
+Firstly we need to open a bash window in our terminal with the 
+
+- `bash` command
+
+We can then open a nano window with:
+
+- `nano ".....".pem`
+
+This will open an empty file where we can then paste our Information in.
+On Mac save this by using 
+
+- <kbd>CTRL</kbd> + <kbd>X</kbd> and then `Y` for yes to save the file 
+
+Your Credentials are now saved in the `.ssh` folder.
 
